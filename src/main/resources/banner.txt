@@ -1,0 +1,14 @@
+${AnsiColor.BRIGHT_BLUE}
+     _    _ _ _____ ______ _   _
+    / \  | | |_   _|  ____| \ | |
+   / _ \ | | | | | | |__  |  \| |
+  / ___ \| | | | | |  __| | . ` |
+ /_/   \_\_| |_| |_| |____|_|\__|
+
+${AnsiColor.BRIGHT_YELLOW}
+        SPRING BOOT PRODUCT API
+${AnsiColor.BRIGHT_CYAN}
+        Author: MUSTAPHA FILALE
+        Version: 1.0.0
+        CreatedAt: 2025-04-29
+${AnsiColor.DEFAULT}
