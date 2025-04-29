@@ -1,6 +1,8 @@
 
 # 🛒 Back-End API Documentation
 
+NB : Qu'il faut créer un base de données MySQL avant de lanver le projet avec le nom c'étais ci-dessous (J'ai utilisé la base MySQL et non H2 ).
+
 Ce projet représente la partie **back-end** d'une application de gestion de produits, panier d'achat et liste d'envie, avec authentification sécurisée via **JWT** et documentation via **OpenAPI**.
 
 ---
