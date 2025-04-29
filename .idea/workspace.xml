@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffe4419e-0d50-46bc-b523-b5444e073215" name="Changes" comment="">
+    <list default="true" id="ffe4419e-0d50-46bc-b523-b5444e073215" name="Changes" comment="- NB : Qu'il faut créer une base de données MySql.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/product/trial/master/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/product/trial/master/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/product/trial/master/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/product/trial/master/service/impl/AccountServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +97,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745870338577</updated>
-      <workItem from="1745870342504" duration="24158000" />
+      <workItem from="1745870342504" duration="25331000" />
     </task>
+    <task id="LOCAL-00001" summary="- NB : Qu'il faut créer une base de données MySql.">
+      <created>1745957396467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745957396467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +122,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- NB : Qu'il faut créer une base de données MySql." />
+    <option name="LAST_COMMIT_MESSAGE" value="- NB : Qu'il faut créer une base de données MySql." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -145,6 +159,11 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/6.4.5/spring-security-core-6.4.5.jar!/org/springframework/security/access/expression/SecurityExpressionRoot.class</url>
           <line>58</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/product/trial/master/service/impl/AccountServiceImpl.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

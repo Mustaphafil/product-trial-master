@@ -19,7 +19,7 @@ public class AccountServiceImpl implements AccountService {
     private final UserRepository UserRepository;
     private final PasswordEncoder passwordEncoder;
     @Value("${admin.mail}")
-    private static String adminEmail;
+    private String adminEmail;
     private static final Logger logger = LoggerFactory.getLogger(AccountServiceImpl.class);
 
     public AccountServiceImpl(UserRepository UserRepository, PasswordEncoder passwordEncoder) {
@@ -48,7 +48,7 @@ public class AccountServiceImpl implements AccountService {
         return UserRepository.findUserByEmail(email);
     }
 
-    private static User map(UserDto dto) {
+    private User map(UserDto dto) {
         if (dto == null) return null;
         User user = new User();
         user.setId(dto.id());
@@ -56,7 +56,7 @@ public class AccountServiceImpl implements AccountService {
         user.setFirstname(dto.firstname());
         user.setEmail(dto.email());
         user.setPassword(dto.password());
-        if(dto.email().equals(adminEmail))
+        if(adminEmail.equals(dto.email()))
             user.setRole("ADMIN");
         else{
             user.setRole("USER");
